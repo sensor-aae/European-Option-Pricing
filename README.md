@@ -15,3 +15,19 @@ This project implements the Black-Scholes model to price European call and put o
 
 3. Run notebook:
 
+## 📁 Project Structure
+european-option-pricing/
+├── .venv/                     # Python virtual environment
+├── notebooks/                 # Jupyter notebooks
+│   └── black_scholes_pricing.ipynb
+├── outputs/                   # Plots and generated output
+│   └── surfaces/              # Sensitivity plots, price graphs
+├── test_imports.py           # Simple file to test imports
+├── utils/                    # Custom pricing and Greeks code
+│   └── bs_functions.py
+├── requirements.txt          # Python packages list
+└── README.md                 # Project documentation
+
+## 📈 Sample Output
+
+![Option Greeks Plot](outputs/surfaces.png)
